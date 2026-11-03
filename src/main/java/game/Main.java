@@ -24,10 +24,7 @@ public class Main extends Application {
         title.setFont(Font.font("Serif", 42));
         title.setTextFill(Color.web("#e8e3df"));
 
-        Label subtitle = new Label("บาปในบ้าน");
-        subtitle.setFont(Font.font("Serif", 24));
-        subtitle.setTextFill(Color.web("#9b2929"));
-
+  
         // ข้อความบรรยากาศ
         Label tagline = new Label(
 
@@ -65,7 +62,6 @@ public class Main extends Application {
         VBox menu = new VBox(
             12,
             title,
-            subtitle,
             startButton,
             settingsButton,
             creditsButton,
