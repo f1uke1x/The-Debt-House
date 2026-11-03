@@ -20,7 +20,7 @@ public class Main extends Application {
     public void start(Stage stage) {
 
         // ชื่อเกม
-        Label title = new Label("THE LAST VERDICT");
+        Label title = new Label("THE DEBT HOUSE");
         title.setFont(Font.font("Serif", 42));
         title.setTextFill(Color.web("#e8e3df"));
 
@@ -30,7 +30,7 @@ public class Main extends Application {
 
         // ข้อความบรรยากาศ
         Label tagline = new Label(
-            "บางความทรงจำ... ไม่ควรถูกปลุกขึ้นมา"
+
         );
         tagline.setFont(Font.font("Serif", 14));
         tagline.setTextFill(Color.web("#aaa29d"));
@@ -127,7 +127,7 @@ public class Main extends Application {
 
         Scene scene = new Scene(root, 1100, 650);
 
-        stage.setTitle("THE LAST VERDICT - บาปในบ้าน");
+        
         stage.setScene(scene);
         stage.setResizable(false);
         stage.show();
